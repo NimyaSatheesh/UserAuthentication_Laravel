@@ -1,0 +1,106 @@
+
+.login_details img{
+    width: 97%;
+    height: 100%;
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.login_details h2{
+    text-align: center;
+}
+
+.login_registration_form{
+    position: absolute;
+    top: 15%;
+    max-width: 850px;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 25px 30px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    left: 15%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+}
+/* .login_registration_form{
+    top: 3%;
+    max-width: 100%;
+    width: 65%;
+    background-color: #ffffff;
+    padding: 25px 30px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: auto;
+  } */
+.login_details form .user-details .input-box{
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  .login_details form .input-box span.details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  .login_details .user-details .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+  }
+ .login_details form .register_form{
+    text-align: center;
+  }
+ .login_details  form .button{
+    height: 45px;
+    margin: 60px 0
+  }
+ .login_details form .button input{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  }
+ .login_details form .forgot_pwrd{
+    float: right;
+    
+  }
+ .login_details form .button input:hover{
+   /* transform: scale(0.99); */
+   background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+   }
+   i#togglePassword {
+    position: relative;
+    float: right;
+    margin-top: -30px;
+    margin-right: 20px;
+}
+
+/* media query style starting */
+@media only screen and (max-width:780px)  {
+    .login_registration_form {
+      position: unset;
+      top: 10%;
+      max-width: 100%;
+      width: 100%;
+      padding: 2px;
+      display: inline-block; 
+    }
+    .main_div .home_img{
+      display: none;
+    }
+  }
